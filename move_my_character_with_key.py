@@ -33,7 +33,7 @@ def handle_events():
                 dir_y += 1
 
 running = True
-x = 400, 90
+x, y = 400, 90
 frame = 0
 dir_x, dir_y = 0,0
 
@@ -44,8 +44,6 @@ while running:
     update_canvas()
     handle_events()
     frame = (frame + 1) % 8
-    x += dir * 5
-    delay(0.05)
 
     x += dir_x * 5
     y += dir_y * 5
