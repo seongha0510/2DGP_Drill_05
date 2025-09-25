@@ -53,3 +53,4 @@ while running:
     delay(0.05)
 
 close_canvas()
+#코파일럿의 도움을 받아 작성하였습니다.
