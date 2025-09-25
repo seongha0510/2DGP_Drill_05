@@ -5,7 +5,7 @@ grass = load_image('TUK_GROUND.png')
 character = load_image('animation_sheet.png')
 
 def handle_events():
-    global running, dir
+    global running, dir_x, dir_y
 
     global x
 
