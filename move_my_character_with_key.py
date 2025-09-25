@@ -47,4 +47,11 @@ while running:
     x += dir * 5
     delay(0.05)
 
+    x += dir_x * 5
+    y += dir_y * 5
+    x = max(90, min(750,x))
+    y = max(90, min(550,y))
+
+    delay(0.05)
+
 close_canvas()
